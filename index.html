@@ -5,6 +5,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabalhando com Listas</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            /* fonte */
+            font-size: 20px;
+            /* tamanho do texto */
+            background-color: #faebd7;
+        }
+
+        table {
+            width: 100%;
+            border: 2px solid #008b8b;
+        }
+
+        th,
+        tr,
+        td {
+            border: 2px solid #008b8b;
+            border-radius: 5px;
+            /* aredondar borda */
+            text-align: center;
+        }
+
+        th {
+            background-color: #7fffd4;
+            color: #00008b;
+            /* cor da letra */
+        }
+
+        h2 {
+            color: #a52a2a;
+            /* todos que estão no tamanho h2 */
+        }
+
+        h1 {
+            text-align: center;
+            color: #dc143c;
+            /* todos que estão no tamanho h1  */
+        }
+    </style>
+
+
 </head>
 
 <body>
@@ -94,6 +136,79 @@
         </ul>
     </ol>
     <h2><i>Tabela de informações dos Jogos</i></h2>
+    <table>
+
+
+        <tr>
+            <th>Jogo</th>
+            <th>Informações</th>
+            <th>Imagem</th>
+            <!-- </tr> cabeçalho da tabela -->
+        </tr>
+
+
+        <tr>
+            <td>River Raid</td>
+            <td>
+                <p><b>Ano:</b> 1982</p>
+                <p><b>Plataforma:</b> Atari</p>
+            </td>
+            <td><img src="imagens/river_raid.jpg" width="200px" height="150" px></td>
+        </tr>
+
+
+        <tr>
+            <td>Mario Bros</td>
+            <td>
+                <p><b>Ano:</b>1985</p>
+                <p><b>Plataforma:</b> NES</p>
+            </td>
+            <td><img src="imagens/mario.jpg" width="200px" height="150px"></td>
+            <!-- colocar imagem dentro da tabela  -->
+        </tr>
+
+
+        <tr>
+            <td>Sonic</td>
+            <td>
+                <p><b>Ano:</b> 1991</p>
+                <p><b>Plataforma:</b> Megadrive</p>
+            </td>
+            <td><img src="imagens/sonic.jpg" width="200px" height="150px"></td>
+        </tr>
+
+
+        <tr>
+            <td>Donkey Kong</td>
+            <td>
+                <p><b>Ano:</b> 1994</p>
+                <p><b>Plataforma:</b> SNES</p>
+            </td>
+            <td><img src="imagens/donkeykong.png" width="200px" height="150px"></td>
+        </tr>
+
+
+        <tr>
+            <td>Final Fantasy</td>
+            <td>
+                <p><b>Ano:</b> 1997</p>
+                <p><b>Plataforma:</b> Playstation</p>
+            </td>
+            <td><img src="imagens/finalfantasy.jpg" width="200px" height="150px"></td>
+        </tr>
+
+
+        <tr>
+            <td>GTA V</td>
+            <td>
+                <p><b>Ano:</b> 2013</p>
+                <p><b>Plataforma:</b> Multi Console</li>
+            </td>
+            <td><img src="imagens/gta.jpg" width="200px" height="150px"></td>
+        </tr>
+
+
+    </table>
 </body>
 
 </html>
